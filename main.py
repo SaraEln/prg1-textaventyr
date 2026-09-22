@@ -11,7 +11,7 @@ if val1 == "Sova":
     if val2 == "äta":
         print(f"\n{name} hann bara att äta, nu är det dags att åka till träningen")
 
-    elif val2 == "plugga":
+    else:
         print("\n hen valde att plugga, vilket var positivt för att hen har prov imorgon. Efter plugget ska hen till träningen")
 
     val3 = input(f"\n Klockan är 21.00, {name} är helt slut, tänker hen kämpa lite till och plugga eller föredrar hen att sova")
@@ -22,19 +22,19 @@ if val1 == "Sova":
     else:
         print(f"\n{name} har haft en väldigt stressig eftermiddag, det är nog för det bästa om hen går och lägger sig")
 
-elif val1 == "äta_mellanmål":
-    print(f"{name} bestämde sig för att äta mellanmål men vad tänker hen göra härnäst?")
+else:
+    print(f"\n {name} bestämde sig för att äta mellanmål men vad tänker hen göra härnäst?")
 
     val2_mellis = input("\n Hen kan välja mellan att spela spel eller studera innan träningen")
     if val2_mellis == "spela spel":
         print(f"\n Detta kanske inte var det bästa alternativet, {name} har trots allt prov imorgon.")
 
-    elif val2_mellis == "studera":
+    else:
         print(f"\n Vad imponerande av {name} att studera istället för att spela, hen vet att plugget är viktigare.")
     val3_mellis = input(f"\n{name} kan välja mellan att sitta upp och spela spel till klockan 03.00 eller sova.")
 
     if val3_mellis == "spela spel":
         print(f"\nDetta kommer {name} att ångra imorgon, hen fick inte tillräckligt med sömn.")
 
-    elif val3_mellis == "sova":
+    else:
         print(f"Skönt att {name} äntligen kan gå och lägga sig.")
