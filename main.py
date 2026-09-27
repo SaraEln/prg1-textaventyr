@@ -4,11 +4,11 @@ input(f"{name} anlände hem klockan 16.00. Hen har mycket att göra, bl.a träni
 
 val1 = input(f"klockan är 16.15, vad vill {name} göra? Sova/äta_mellanmål")
 
-if val1 == "Sova":
+if val1.lower() == "sova":
     print(f"\n{name} sov lite för länge, klockan är 18.00 och om en timme har {name} träning")
 
     val2 = input(f"\n{name} kan välja mellan att äta eller plugga. Vad väljer hen?")
-    if val2 == "äta":
+    if val2.lower() == "äta":
         print(f"\n{name} hann bara att äta, nu är det dags att åka till träningen")
 
     else:
@@ -16,7 +16,7 @@ if val1 == "Sova":
 
     val3 = input(f"\n Klockan är 21.00, {name} är helt slut, tänker hen kämpa lite till och plugga eller föredrar hen att sova")
 
-    if val3 == "plugga":
+    if val3.lower() == "plugga":
         print(f"\nVäldigt bra kämpat!, ett sista ryck och sedan kan {name} gå och lägga sig.")
 
     else:
@@ -26,14 +26,14 @@ else:
     print(f"\n {name} bestämde sig för att äta mellanmål men vad tänker hen göra härnäst?")
 
     val2_mellis = input("\n Hen kan välja mellan att spela spel eller studera innan träningen")
-    if val2_mellis == "spela spel":
+    if val2_mellis.lower() == "spela spel":
         print(f"\n Detta kanske inte var det bästa alternativet, {name} har trots allt prov imorgon.")
 
     else:
         print(f"\n Vad imponerande av {name} att studera istället för att spela, hen vet att plugget är viktigare.")
     val3_mellis = input(f"\n{name} kan välja mellan att sitta upp och spela spel till klockan 03.00 eller sova.")
 
-    if val3_mellis == "spela spel":
+    if val3_mellis.lower() == "spela spel":
         print(f"\nDetta kommer {name} att ångra imorgon, hen fick inte tillräckligt med sömn.")
 
     else:

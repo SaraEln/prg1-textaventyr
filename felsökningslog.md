@@ -28,4 +28,6 @@
 - Jag har sedan tidigare hört talas om att raderna måste flyttas ett visst antal gånger för att python ska förstå att raden tillhör ett särskilt kodblock och därför fick jag "dra in dem". Jag använde mig av AI som talade om för mig hur jag skulle göra för att koden skulle köra som tänkt. AI skrev och förklarade varför man gör just så. 
 
 "Vad jag skulle göra annorlunda"
-- Inför nästa gång ska jag vara mer uppmärksam när det gäller indrag, då behöver jag inte sitta med det problemet majoriteten av tiden jag kodar. 
+- Inför nästa gång ska jag vara mer uppmärksam när det gäller indrag, då behöver jag inte sitta med det problemet majoriteten av tiden jag kodar. Jag ska bli bättre på att läsa felmeddelanden (Traceback), istället för att gissa var felet ligger. Jag ska också använda mig av visuella hjälplinjerna som visar var och vilken rad kodblocket tillhör. Inför nästa skrivtillfälle kommer jag att be en kompis eller AI om hjälp, eftersom man lätt har svårt att upptäcka sina egna fel. 
+
+AI föreslog att jag placerade raderna men ett visst antal indrag för att tala om för python att raden tillhör ett särskilt kodblock. Det problem som uppstod var att AI inte riktigt förstått hur min kod skulle fungera och att jag hade två olika träd i ett. Vilket gjorde detta ännu mer komplicerat än vad det behövde vara. AI:n var inte så uppmärksam om vilka rader som var vilken, alltså på bilden trodde AI:n att rad 10 och 11 var samma rad och liknande saker.

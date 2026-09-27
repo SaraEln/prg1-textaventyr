@@ -6,19 +6,15 @@
 
 ## To Do
 
-#### .lower()
-<!-- id: task-1789370324820-21 -->
-all jämförelse av inmatning sänks till gemener först
-
 #### Inga kraschar
 <!-- id: task-1789370399886-49 -->
 vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
 
 ## In Progress
 
-#### Skriv berättelsen
-<!-- id: task-1789371029039-86 -->
-<!-- priority: critical -->
+#### .lower()
+<!-- id: task-1789370324820-21 -->
+all jämförelse av inmatning sänks till gemener först
 
 ## Done
 
@@ -41,3 +37,13 @@ minst två if/else-val efter varandra, en fråga, lite berättelse, en ny fråga
 #### Flera slut
 <!-- id: task-1789370357795-38 -->
 minst två, och de ska vara olika. Slutar alla vägar likadant har spelarens val inte spelat någon roll
+
+#### Skriva felsökningslog
+<!-- id: task-1790510686939-200 -->
+
+#### Skriva berättelse
+<!-- id: task-1790510693805-219 -->
+
+#### Skriv berättelsen
+<!-- id: task-1789371029039-86 -->
+<!-- priority: critical -->
