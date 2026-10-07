@@ -6,15 +6,7 @@
 
 ## To Do
 
-#### Inga kraschar
-<!-- id: task-1789370399886-49 -->
-vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
-
 ## In Progress
-
-#### .lower()
-<!-- id: task-1789370324820-21 -->
-all jämförelse av inmatning sänks till gemener först
 
 ## Done
 
@@ -25,6 +17,10 @@ Klona / forka repot och börja sedan jobba med materialet
 #### Spelarnamn
 <!-- id: task-1789370256358-0 -->
 programmet frågar efter spelarens namn och lagrar det i en variabel
+
+#### Inga kraschar
+<!-- id: task-1789370399886-49 -->
+vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
 
 #### f-strängar
 <!-- id: task-1789370290018-5 -->
@@ -38,6 +34,10 @@ minst två if/else-val efter varandra, en fråga, lite berättelse, en ny fråga
 <!-- id: task-1789370357795-38 -->
 minst två, och de ska vara olika. Slutar alla vägar likadant har spelarens val inte spelat någon roll
 
+#### .lower()
+<!-- id: task-1789370324820-21 -->
+all jämförelse av inmatning sänks till gemener först
+
 #### Skriva felsökningslog
 <!-- id: task-1790510686939-200 -->
 
@@ -47,3 +47,7 @@ minst två, och de ska vara olika. Slutar alla vägar likadant har spelarens val
 #### Skriv berättelsen
 <!-- id: task-1789371029039-86 -->
 <!-- priority: critical -->
+
+#### Kolla att koden fungerar som planerat
+<!-- id: task-1790672610428-460 -->
+Man ska kunna välja mellan de två olika grenarna och sedan ska man kunna välja mellan alternativen i dem grenar.

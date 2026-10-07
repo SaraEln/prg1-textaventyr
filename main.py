@@ -1,8 +1,8 @@
 # Här skriver du ditt textäventyr
 name = input("Vad heter du?")
-input(f"{name} anlände hem klockan 16.00. Hen har mycket att göra, bl.a träning kl 19.00 och ett super viktigt prov dagen därpå. frågan är om hon föredrar att spela spel eller plugga?")
+input(f"{name} anlände hem klockan 16.00. Hen har mycket att göra, bl.a träning kl 19.00 och ett super viktigt prov dagen därpå. frågan är om hen föredrar att spela spel eller plugga?")
 
-val1 = input(f"klockan är 16.15, vad vill {name} göra? Sova/äta_mellanmål")
+val1 = input(f"klockan är 16.15, vad vill {name} göra? Sova/äta_mellanmål").lower()
 
 if val1.lower() == "sova":
     print(f"\n{name} sov lite för länge, klockan är 18.00 och om en timme har {name} träning")
